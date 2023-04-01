@@ -1,0 +1,196 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    color:#606060;
+    font-size: 1.3rem;
+    text-align: justify;
+    text-indent: 2rem;
+}
+
+h1{
+    font-size: 4rem;
+    color:#606060;
+}
+
+h2{
+    font-size: 3rem;
+    color:#606060;
+}
+
+h3{
+    font-size: 2rem;
+    color:#606060;
+}
+
+body{
+    background-color: #dddddd;
+}
+
+article{
+    margin-top: 2rem;
+}
+
+.container{
+    background: linear-gradient(90deg, rgba(166,166,166,1) 0%, rgba(255,255,255,1) 70%);
+    min-width: 50rem;
+    max-width: 90rem;
+    margin: auto;
+    box-shadow: 0 0 1rem black;
+    padding: 1rem;
+}
+
+.cabecalho{
+    border-bottom: 0.1rem solid #000000;
+    height: 12rem;
+    min-width: 80rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem
+}
+
+.cabecalho .left{
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.cabecalho .amarelo{
+    color: #FF3131;
+    text-shadow: 0.2rem 0.2rem 0.2rem #606060;
+}
+
+.cabecalho .azul{
+    color: #004AAD;
+    text-shadow: 0.2rem 0.2rem 0.2rem #606060;
+}
+
+.cabecalho hgroup h3{
+    text-shadow: 0.1rem 0.2rem 0.2rem #dddddd;
+    color:#606060;
+}
+
+.cabecalho hgroup h1{
+    display: inline-block;
+}
+
+.menu li{
+    display: inline-block;
+    background-color: rgba(35,35,35,0.4);
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+    transition: backgound-color, 0.5s;
+    box-shadow: 0.2rem 0.1rem 0.2rem rgba(0,0,0,0.6);
+}
+
+.menu li:hover{
+    cursor: pointer;
+    background-color: rgba(35,35,35,0.6);
+     
+}
+
+.menu li a{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.9)
+}
+
+.menu h1{
+    display: none;
+}
+
+.menu .imagem{
+    display: none;
+    float: right;
+}
+
+.mainContent{
+    display: block;
+    float: left;
+    margin: 1rem 0.5rem;
+    padding-right: 1rem;
+    max-width: 50rem;
+    border-right: 0.1rem solid #000000;
+}
+
+
+.oque{
+    margin-bottom: 1rem;
+}
+ 
+
+.table1{
+    border: 1px solid #606060;
+    margin: auto;
+    width: 25rem;
+    margin-top: 0.5rem;
+    border-spacing: 0;
+}
+
+.table1 caption{
+    color: #606060;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.table1 span{
+    display: block;
+    float: right;
+    margin-top: 0.7rem;
+    color: #000000;
+    font-size: 0.8rem;
+}
+
+.table1 td{
+    font-size: 1.3rem;
+    vertical-align: middle;
+    padding: 0.4rem;
+    border: 1px solid #606060;
+    
+}
+
+
+.table1 td.esq{
+    text-align: right;
+    background-color: #606060;
+    color:#ffffff;
+}
+
+.table1 td.dir{
+    background-color: #dddddd;
+    color: #606060;
+    font-weight: bolder;
+}
+
+.lateral{
+    width: 36rem;
+    display: block;
+    float: right;
+    padding-top: 1rem;
+}
+
+.motivos{
+    font-size: 1.4rem;
+    list-style-type: circle;
+    color: #606060;
+}
+
+.lateral article{
+    margin-left: 1rem;
+}
+
+.lateral ol{
+    margin-left: 1rem;
+}
+
+
+.rodape{
+    clear: both;
+    border-top: 0.1rem solid #606060;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

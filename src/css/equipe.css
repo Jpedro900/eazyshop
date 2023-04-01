@@ -1,0 +1,21 @@
+
+
+
+.equipe{
+    min-height: 100rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.descricao{
+    min-height: 13rem;
+    display: flex;
+}
+
+img{
+    margin-right: 4rem;
+    width: 10rem;
+    height: 10rem;
+}
